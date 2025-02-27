@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Bagian Profil -->
+        <div class="profile">
+            <img src="profile.jpg" alt="Foto Profil" class="profile-img" onclick="zoomImage()">
+            <h1>Muhammad Dean Herdiana</h1>
+            <p class="title">Pelajar bukan Terpelajar</p>
+        </div>
+
+        <!-- Bagian Biodata -->
+        <div class="bio">
+            <h2>Biodata Diri</h2>
+            <p><strong>Nama:</strong> Muhammad Dean Herdiana</p>
+            <p><strong>Tanggal Lahir:</strong> 20 April 2008</p>
+            <p><strong>Alamat:</strong> Cirebon, Jawa Barat</p>
+            <p><strong>Email:</strong> deanherdiana6@gmail.com</p>
+            <p><strong>Nomor Telepon:</strong> 083159327822</p>
+        </div>
+
+        <!-- Bagian Tentang Saya -->
+        <div class="about">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang pelajar SMK yang tertarik dengan pemrograman, khususnya Python dan pengembangan web. Saya juga sedang belajar bahasa Jepang dan ingin menguasai HTML, CSS, serta teknologi terkait.</p>
+        </div>
+
+        <!-- Bagian Proyek -->
+        <div class="project">
+            <h2>Project Saya</h2>
+            <a href="kalkulator.html" class="btn" target="_blank">Kalkulator Sederhana</a>
+        </div>
+    </div>
+
+    <!-- Modal untuk Zoom Foto -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeImage()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+</body>
+</html>
